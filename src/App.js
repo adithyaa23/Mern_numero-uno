@@ -1,5 +1,7 @@
 import "./styles.css";
 import Header from "./header";
+import TinderCards from "./tinderCard";
+import SwipeButton from "./swipeButton";
 
 export default function App() {
   return (
@@ -7,7 +9,9 @@ export default function App() {
       {/* Header */}
       <Header/>
       {/* Swipe Section */}
+      <TinderCards />
       {/* action */}
+      <SwipeButton/>
     </div>
   );
 }
